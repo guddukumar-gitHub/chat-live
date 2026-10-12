@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import "./App.css";
+import { Button } from "@/components/ui/button"
 
 function App() {
   const inputRef = useRef<HTMLInputElement>(null);
@@ -41,6 +42,7 @@ function App() {
             >
               Send
             </button>
+            <Button>Click me</Button>
           </div>
         </div>
       </div>
